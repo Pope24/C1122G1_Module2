@@ -12,17 +12,24 @@ public class Main {
             System.out.print("Nhap phan tu thu " + (i + 1) + " cua mang: ");
             arr[i] = sc.nextInt();
         }
-        System.out.println(Arrays.toString(arr));
+        System.out.println("Value     " + Arrays.toString(arr));
         System.out.print("Nhap phan tu ban muon xoa: ");
         int deleteElm = sc.nextInt();
-        int newArr[];
-        newArr = new int[lengthArr - 1];
-        for (int i = 0, k = 0; i < lengthArr; i++) {
-            if (arr[i] != deleteElm) {
-                newArr[k] = arr[i];
-                k++;
+        boolean flag = true;
+        for (int i = 0; i < lengthArr; i++) {
+            if (arr[i] == deleteElm) {
+                for (int k = i; k < lengthArr - 1; k++) {
+                    arr[k] = arr[k + 1];
+                }
+                arr[lengthArr - 1] = 0;
+                flag = false;
+                break;
             }
         }
-        System.out.println("Mang sau khi xoa 1 phan tu la " + Arrays.toString(newArr));
+        if (flag == true) {
+            System.out.println("Can not find this element !!");
+        } else {
+            System.out.println("New value  " + Arrays.toString(arr));
+        }
     }
 }
