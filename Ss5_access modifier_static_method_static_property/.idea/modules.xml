@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Bai_tap/BuildClassOnlyWrite/BuildClassOnlyWrite.iml" filepath="$PROJECT_DIR$/Bai_tap/BuildClassOnlyWrite/BuildClassOnlyWrite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bai_tap/Circle/Circle.iml" filepath="$PROJECT_DIR$/Bai_tap/Circle/Circle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Ss5_access modifier_static_method_static_property.iml" filepath="$PROJECT_DIR$/.idea/Ss5_access modifier_static_method_static_property.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Thuc_hanh/static_method/static_method.iml" filepath="$PROJECT_DIR$/Thuc_hanh/static_method/static_method.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Thuc_hanh/static_property/static_property.iml" filepath="$PROJECT_DIR$/Thuc_hanh/static_property/static_property.iml" />
+    </modules>
+  </component>
+</project>
