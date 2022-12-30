@@ -45,23 +45,26 @@ public class Main {
         }
     }
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Nhap so can doc = ");
-        int number = sc.nextInt();
-        if (number <= 10 && number >= 0) {
-           readNumber(number);
-        }
-        else if (number > 10 && number < 20) {
+        System.out.println("Input number:");
+        Scanner scanner = new Scanner(System.in);
+        int number = Integer.parseInt(scanner.nextLine());
+        if (number >= 0 && number <= 10) {
+            readNumber(number);
+        } else if (number < 20) {
+            readNumber(number%10);
+            System.out.println("teen");
+        } else if (number < 30) {
+            System.out.print("Twenty ");
             readNumber(number % 10);
-            System.out.print("teen");
-        }
-        else if (number >= 20 && number < 100) {
+        } else if (number >= 20 && number < 100) {
             readTwoNumber(number);
-        }
-        else if (number >= 100) {
+        } else if (number >= 100 && number <= 999) {
             readNumber(number / 10 / 10);
             System.out.print(" hundred and ");
             readTwoNumber(number % 100);
+        }
+        else {
+            System.out.print("You number is very big. We can not translate !!");
         }
     }
 
