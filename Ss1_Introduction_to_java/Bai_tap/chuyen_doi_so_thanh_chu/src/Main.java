@@ -46,6 +46,7 @@ public class Main {
     }
     public static void main(String[] args) {
         System.out.println("Input number:");
+//        Scanner scanner = new Scanner(System.in);
         Scanner scanner = new Scanner(System.in);
         int number = Integer.parseInt(scanner.nextLine());
         if (number >= 0 && number <= 10) {
