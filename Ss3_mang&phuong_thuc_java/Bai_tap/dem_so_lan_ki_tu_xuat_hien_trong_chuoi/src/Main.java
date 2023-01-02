@@ -11,9 +11,6 @@ public class Main {
             int count = 0;
             if (str.charAt(i) != ' ') {
                 for (int j = 0; j < str.length(); j++) {
-                    for (int k = 0; k < str.length(); k++) {
-
-                    }
                 if (str.charAt(i) == str.charAt(j)) {
                     count++;
                     }
