@@ -1,4 +1,4 @@
-package Ss10_list.exercise.deploy_class_list_basic;
+package Ss10_list.practice.deploy_class_list_basic;
 
 import java.util.Arrays;
 
