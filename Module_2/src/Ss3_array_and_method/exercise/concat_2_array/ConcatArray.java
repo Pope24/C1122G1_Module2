@@ -3,7 +3,7 @@ package Ss3_array_and_method.exercise.concat_2_array;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class MethodInArray {
+public class ConcatArray {
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
 //        Nhap mang thu nhat
