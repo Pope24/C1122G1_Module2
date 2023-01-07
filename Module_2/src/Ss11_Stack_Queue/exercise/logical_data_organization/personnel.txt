@@ -1,0 +1,5 @@
+Personnel{name='Hong', gender='NU', dateOfBirth=2002-10-16, position='Tester'}
+Personnel{name='Giang', gender='NU', dateOfBirth=2003-12-03, position='Manager'}
+Personnel{name='Lanh', gender='NAM', dateOfBirth=1990-11-01, position='Developer'}
+Personnel{name='Minh', gender='NAM', dateOfBirth=1998-07-12, position='Developer'}
+Personnel{name='Chinh', gender='NAM', dateOfBirth=2003-02-24, position='CEO'}
