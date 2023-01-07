@@ -9,8 +9,8 @@ public class ReverseArray {
         Stack<String> stringStack = new Stack<>();
 
 //        Reverse integer array
-        int[] arrayPrevious = {3,5,2,4,7,5,3,8};
-        for (int elmArray: arrayPrevious) {
+        int[] arrayPrevious = {3, 5, 2, 4, 7, 5, 3, 8};
+        for (int elmArray : arrayPrevious) {
             integerStack.push(elmArray);
         }
         int[] newIntegerArray = new int[arrayPrevious.length];
@@ -22,7 +22,7 @@ public class ReverseArray {
 //        Reverse string
         String strArray = "le van chinh";
         String[] newStringArr = strArray.split("");
-        for (String word: newStringArr) {
+        for (String word : newStringArr) {
             stringStack.push(word);
         }
         String[] stringReverse = new String[newStringArr.length];

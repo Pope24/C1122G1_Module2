@@ -4,18 +4,19 @@ public class Solution {
     static class Queue {
         Node front = null;
         Node rear = null;
+
         public static void enQueue(Queue q, int value) {
             Node newNode = new Node();
             newNode.data = value;
             if (q.front == null) {
                 q.front = newNode;
-            }
-            else {
+            } else {
                 q.rear.link = newNode;
             }
             q.rear = newNode;
             q.rear.link = q.front;
         }
+
         public static int deQueue(Queue q) {
             if (q.front == null) {
                 throw new RuntimeException("Queue is empty.");
@@ -25,8 +26,7 @@ public class Solution {
                 value = q.front.data;
                 q.front = null;
                 q.rear = null;
-            }
-            else {
+            } else {
                 Node temp = q.front;
                 value = temp.data;
                 q.front = q.front.link;
@@ -34,12 +34,11 @@ public class Solution {
             }
             return value;
         }
-        static void displayQueue( Queue  q)
-        {
-            Node  temp = q.front;
+
+        static void displayQueue(Queue q) {
+            Node temp = q.front;
             System.out.printf(" Elements in Circular Queue are: ");
-            while (temp.link != q .front)
-            {
+            while (temp.link != q.front) {
                 System.out.printf("%d ", temp.data);
                 temp = temp.link;
             }

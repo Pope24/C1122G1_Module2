@@ -12,11 +12,10 @@ public class CountWord {
         String strNeedCount = sc.nextLine();
         strNeedCount = strNeedCount.toLowerCase();
         String[] strArr = strNeedCount.split("");
-        for (String word: strArr) {
+        for (String word : strArr) {
             if (!strTree.containsKey(word)) {
                 strTree.put(word, 1);
-            }
-            else {
+            } else {
                 int count = strTree.get(word);
                 strTree.put(word, count + 1);
             }
