@@ -1,7 +1,5 @@
 package Ss11_Stack_Queue.exercise.logical_data_organization;
 
-import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.time.LocalDate;
